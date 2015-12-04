@@ -1,23 +1,12 @@
 #cabecera {
     width: 100%;
+    color: red;
+    text-align: center;
+    height: 70px;
 }
 
-.logo{
-  
- 
-    z-index: 5000;
-    padding: 10px;
-}
- 
-.logo a{
-    font-size: 32px;
-    font-weight: bold;
-    color: #fff;
-    text-decoration: none;
-}
- 
 .menu-nav{
-    float: right;
+    float: left;
 }
  
 #menu-s{
@@ -72,24 +61,26 @@
 .fila{
     width: 100%;
 }
- 
+
 .contenido{
-    width: 70%;
+    width: 80%;
     height: auto;
-    float: left;
-    margin-right: 20px
+    text-align: justify;
 }
  
-.sidebar{
-    width: 27%;
+.sidebar1{
+    width: 10%;
     height: auto;
     float: right;
      
 }
  
-.sidebar p{
+.sidebar1 p{
     text-align: justify;
 }
+
+
+
  
 .art p{
     text-align: justify;
