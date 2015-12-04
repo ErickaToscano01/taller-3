@@ -1,9 +1,11 @@
+
 #cabecera {
     width: 100%;
     color: red;
     text-align: center;
     height: 70px;
 }
+
 
 .menu-nav{
     float: left;
