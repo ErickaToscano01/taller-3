@@ -64,14 +64,14 @@
 
 .contenido{
     width: 80%;
-    height: auto;
+    height: 200px;
     text-align: justify;
 }
  
 .sidebar1{
     width: 10%;
-    height: auto;
-    float: right;
+       height: 200px;
+    float: left;
      
 }
  

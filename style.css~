@@ -1,65 +1,113 @@
-<!DOCTYPE html>
-<html lang="es">
-    <head>
-        <title>Taler html 5</title><!--Titulo de mi web-->
-         <meta charset="utf-8" /><!--Codificacion de caracteres-->
-         <link rel="stylesheet" type="text/css" href="style.css"><!--Estilos cargados desde un archivo-->
-       
-    </head>
-    <body>
-        <header><!--Cabecera principal de mi sitio-->
-        
-        <div id="cabecera">
-            <a>header</a>
-        </div>
-        
-            
-            
-            <div id="menu-s">
-                <nav class="menu"><!--Menu-->
-                    <ul class="menu-nav">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Design</a></li>
-                        <li><a href="#">UX</a></li>
-                        <li><a href="#">CSS3</a></li>
-                        <li><a href="#">HTML5</a></li>
-                        <li><a href="#">Linux</a></li>
-                    </ul>
-                </nav>
-            </div>
-            
-        </header>
-        <!--Contenido del sitio-->
-       
-        <!--Contenido general-->
-        <div class="fila">
-            <!--Articulos-->
-            <div class="sidebar1">
-                <a>sjsjjs</a>
-            </div>
-            
-            <div class="contenido">
-                <a>HTML5 (HyperText Markup Language, versión 5) es la quinta revisión importante del lenguaje básico de la World Wide Web, HTML. HTML5 especifica dos variantes de sintaxis para HTML: una «clásica», HTML (text/html), conocida como HTML5, y una variante XHTML conocida como sintaxis XHTML5 que deberá servirse con sintaxis XML (application/xhtml+xml).1 2 Esta es la primera vez que HTML y XHTML se han desarrollado en paralelo. La versión definitiva de la quinta revisión del estándar se publicó en octubre de 2014.3
+#cabecera {
+    width: 100%;
+    color: red;
+    text-align: center;
+    height: 70px;
+}
 
-    Al no ser reconocido en viejas versiones de navegadores por sus nuevas etiquetas, se recomienda al usuario común actualizar su navegador a la versión más nueva, para poder disfrutar de todo el potencial que provee HTML5.
-    El desarrollo de este lenguaje de marcado es regulado por el Consorcio W3C.
-    Fuente: Wikipedia</a>
-            </div>
-            
-            
-            <!--Sidebar derecho-->
-            <div class="sidebar1">
-                <a>yuju</a>
-            </div>
+.menu-nav{
+    float: left;
+}
+ 
+#menu-s{
+    background-color: #FF0040;
+    width: 100%;
+    height: 60px;
+    margin: 0px;
+}
+ 
+.menu>ul>li{
+    float: left;
+    margin-left: 15px;
+    font-size: 18px;
+    position: relative;
+    line-height: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 10px;
+}
+ 
+.menu li{
+    color: #fff;
+    list-style-type: none;
+}
+ 
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 15px;
+    line-height: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 10px;
+}
+ 
+.menu li>a:hover, li>a:focus{
+     
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    height: 30px;
+    color: #01A9DB;
+    margin-left: 15px;
+    margin-right: 10px;
+}
 
-            
-        </div>
-        
-       <!--Footer-->
-        <footer class="footer">
-            <p>
-                Copyright © 2014 Example | Creado y diseñado por <a href="#">Tingsystems</a>
-            </p>    
-        </footer>
-    </body>
-</html>
+
+.head-image img{
+    width: 100%;
+    height: 300px;
+}
+ 
+.fila{
+    width: 100%;
+}
+
+.contenido{
+    width: 80%;
+    height: auto;
+    text-align: justify;
+}
+ 
+.sidebar1{
+    width: 10%;
+    height: auto;
+    float: right;
+     
+}
+ 
+.sidebar1 p{
+    text-align: justify;
+}
+
+
+
+ 
+.art p{
+    text-align: justify;
+}
+
+.footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    float: left;
+    background-color: #01A9DB;
+}
+ 
+.footer p{
+    padding: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+ 
+.footer a{
+    text-decoration: none;
+    color: #D7DF01;
+    font-weight: bold;
+    text-shadow: 0px 0px 0.5px #fff;
+}
+ 
+.footer a:hover{
+    color: #FF0040;
+    text-shadow: 0px 0px 5px #fff;
+}
